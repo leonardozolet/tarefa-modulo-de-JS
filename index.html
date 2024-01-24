@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Contatos</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>Lista de contatos</h1>
+    </header>
+    <form id="form-cadastro">
+        <input type="text" id="nome" required placeholder="Nome">
+        <input type="text" id="telefone" required placeholder="Telefone">
+        <input  id="button" type="submit" value="Cadastrar">
+    </form>
+    <div class="table-container">
+        <table id="tabela-contatos">
+            <caption>Contatos</caption>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
